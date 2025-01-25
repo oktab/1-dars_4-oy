@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[820px] mx-auto">
+        <form class="flex items-center gap-[40px] mt-[20px]" id="form">
+            <input type="text" placeholder="Name" class="px-[20px] py-[10px] border-2" id="InputName">
+            <input type="number" placeholder="Number" class="px-[20px] py-[10px] border-2" id="InputNumber">
+            <button id="save" onclick="sendData(event)" class="text-white bg-sky-700 px-[30px] py-[10px]" type="submit">Add Contact</button>
+        </form>
+        <div id="block">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
